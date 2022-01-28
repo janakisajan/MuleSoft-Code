@@ -5,7 +5,7 @@ CREATE TABLE Movies(m_name VARCHAR(30),m_actor VARCHAR(20),m_actress VARCHAR(20)
 import java.sql.*;
 import java.sql.DriverManager;
 public class NewClass {
-    public class void main(String args[])
+    public static void main(String args[])
     {
         Connection conn=null;
         Statement stmt=null;
